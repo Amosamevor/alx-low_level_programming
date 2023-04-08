@@ -3,7 +3,6 @@
 /**
  * main - Entry point, also program that prints
  * the number of arguments passed into it.
- * 
  * @argc: count
  * @argv: arguments string
  *
