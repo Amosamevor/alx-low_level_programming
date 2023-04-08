@@ -1,17 +1,16 @@
 #include <stdio.h>
-#include <string.h>
+
+/**
+ * main - Entry point.
+ * @argc: size of argv
+ * @argv: app name + any other arguments.
+ *
+ * Return: Alway 0 (sucess)
+ */
 
 int main(int argc __attribute__((unused)), char *argv[])
 {
-char *program_name = strrchr(argv[0], '/');
-if (program_name == NULL)
-{
-program_name = argv[0];
+	printf("%s\n", argv[0]);
+	return (0);
 }
-else
-{
-program_name++;
-}
-printf("%s\n", program_name);
-return 0;
-}
+
