@@ -3,9 +3,8 @@
 
 
 /**
- * create_array - a function that returns a pointer to a
- * newly allocated space in memory, which contains a
- * copy of the string given as a parameter.
+ * create_array - Write a function that creates an array of chars,
+ * and initializes it with a specific char.
  *
  * @size: size of the array.
  * @c: storaged char
